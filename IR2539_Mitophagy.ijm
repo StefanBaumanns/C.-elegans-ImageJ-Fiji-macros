@@ -3,6 +3,7 @@
 // GFP, RFP and TRANS Images are needed (e. g. at 10x magnification).
 // The images of the channels must be sorted in individual folders and the mean background of the fluorescence channels has to be determined beforehand.
 // In case of using the strain IR2539, the mean background signal should be based on the signal determined by analysing the head regions of dumpy nematodes, which are thus not carrying the transgene.
+// Plugins: Biovoxxel, Morpholibj, Bio-Formats
 
 #@ File (label = "TRANS input directory", style = "directory") input
 #@ File (label = "GFP input directory", style = "directory") gfpInput
