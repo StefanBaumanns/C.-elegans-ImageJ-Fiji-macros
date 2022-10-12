@@ -1,6 +1,7 @@
 // Macro for automatic measurment of ROS and MMP in the head regions of C. elegans nematodes using red light emitting fluorescent probes (e.g. Mitotracker Red or TMRE).
 // RFP and TRANS Images are needed (e. g. at 10x magnification).
 // The images of the channels must be sorted in individual folders and the mean background of the fluorescence channels has to be determined beforehand.
+// Plugins: Biovoxxel, Morpholibj, Bio-Formats
 
 #@ File (label = "TRANS input directory", style = "directory") input
 #@ File (label = "RFP input directory", style = "directory") rfpInput
